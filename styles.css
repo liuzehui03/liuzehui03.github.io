@@ -1,0 +1,69 @@
+body{
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.question{
+    font-size: 50px;
+}
+
+.smallText{
+    font-size: 10px;
+}
+
+button{
+    margin: 20px;
+    height: 100px;
+    width: 200px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+.yes, .naur{
+    background-color: palegreen;
+}
+
+.naur{
+    font-size: 20px;
+}
+
+.no{
+    background-color: palevioletred;
+    display: block;
+    position: absolute;
+}
+
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 900px;
+    height: 500px;
+}
+
+.yay{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    width: 700px;
+    height: 500px;
+}
+
+.back{
+    font-size: 10px;
+    height: 25px;
+    width: 70px;
+    color: white;
+    background-color: black;
+}
