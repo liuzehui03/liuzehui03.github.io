@@ -31,6 +31,9 @@ button{
 .yes, .naur{
     background-color: palegreen;
 }
+.yes:hover{
+    background-color: paleturquoise;
+}
 
 .naur{
     font-size: 20px;
@@ -66,4 +69,11 @@ button{
     width: 70px;
     color: white;
     background-color: black;
+}
+.back:hover{
+    font-size: 10px;
+    height: 25px;
+    width: 70px;
+    color: black;
+    background-color: palegoldenrod;
 }
