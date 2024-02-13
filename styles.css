@@ -1,5 +1,5 @@
 body{
-    background-color: pink;
+    background-color: rgb(249, 197, 207);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,11 +12,11 @@ p{
 }
 
 .question{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .smallText{
-    font-size: 10px;
+    font-size: 15px;
 }
 
 button{
@@ -29,10 +29,10 @@ button{
 }
 
 .yes, .naur{
-    background-color: palegreen;
+    background-color: rgb(197, 207, 244);
 }
 .yes:hover{
-    background-color: paleturquoise;
+    background-color: rgb(203, 247, 247);
 }
 
 .naur{
